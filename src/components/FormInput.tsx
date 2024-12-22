@@ -2,7 +2,7 @@ import React from 'react'
 import { Label } from './ui/label'
 import { Input } from './ui/input'
 
-const FormInput = ({ label, type, value, onChange, name, placeholder, defaultValue, }) => {
+const FormInput = ({ label, type, value, onChange, name, placeholder, defaultValue}:{label:string,type:string,value:string,name:string,placeholder:string,defaultValue:string}) => {
     return (
         <div className='my-1'>
             <Label htmlFor={name}>{label}</Label>
