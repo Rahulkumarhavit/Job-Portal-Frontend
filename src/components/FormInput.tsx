@@ -14,7 +14,7 @@ const FormInput = ({ label, type, value, onChange, name, placeholder, defaultVal
             onChange={onChange}
             placeholder={placeholder}
             defaultValue={defaultValue}
-            className='focus-visible:ring-offset-0 focus-visible:ring-0 my-1'
+            className='focus-visible:ring-offset-0 focus-visible:ring-0 my-1 bg-white'
             />
         </div>
     )
